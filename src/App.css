@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono&display=swap');
+*{  
+    font-family: Nova Mono;
+    background-size: cover;
+}
+
+.task-list {
+  background:#364f6b;
+  border-radius: 4px;
+  padding: 5px;
+  width:400px;
+
+}
+
+.task{
+  background-color:#086972;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 8px 16px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+   display: grid;
+   grid-template-columns: 2fr .3fr .1fr;
+  color:#43dde6;
+
+}
+
+.container{
+   transform: translate(0,20px);
+   width:40%;
+
+}
+input{
+  background-color:#086972;
+  border: none;
+  color :#43dde6;
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+ width: 97%;
+ font-size: 18px;
+ 
+}
+.Box{
+ display: grid;
+ grid-template-columns: 2fr 1fr; 
+}
